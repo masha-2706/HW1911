@@ -1,0 +1,32 @@
+.wrapper {
+    background-color: rgb(61, 152, 97);
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.cardElem {
+    background-color:  rgb(91, 207, 126);
+    border: 1px solid  rgb(40, 90, 74);
+    border-top-left-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(40, 90, 74);
+    padding: 10px;
+}
+.title {
+    color: rgb(37, 92, 127);
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.deadline {
+    color: rgb(28, 69, 95);
+    text-align: right;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.description {
+    color: rgb(23, 54, 74);
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
